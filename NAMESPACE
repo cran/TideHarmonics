@@ -1,0 +1,10 @@
+export(lambdas, nodal_adj, ftide, plagtz)
+
+S3method(print, tide)
+S3method(coef, tide)
+S3method(predict, tide)
+S3method(plot, tide)
+
+importFrom("grDevices", "dev.interactive")
+importFrom("graphics", "par","plot")
+importFrom("stats", "coef","fitted","lm","loess","na.exclude","predict")
