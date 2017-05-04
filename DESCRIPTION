@@ -1,6 +1,6 @@
 Package: TideHarmonics
-Version: 0.1-0
-Date: 2016-01-04
+Version: 0.1-1
+Date: 2017-05-04
 Title: Harmonic Analysis of Tides
 Author: Alec Stephenson.
 Maintainer: Alec Stephenson <alec_stephenson@hotmail.com>
@@ -12,6 +12,6 @@ Description: Implements harmonic analysis of tidal and sea-level data.
 LazyData: yes
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
-Packaged: 2015-12-25 03:12:40 UTC; ste6an
+Packaged: 2017-05-04 07:35:56 UTC; ste6an
 Repository: CRAN
-Date/Publication: 2015-12-25 14:27:19
+Date/Publication: 2017-05-04 08:16:54 UTC

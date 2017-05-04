@@ -1,9 +1,9 @@
-e26c51a0abc4b1654271d110065fb3d0 *DESCRIPTION
+fdf5468a4ea8eb2af33936fa1cfd6de9 *DESCRIPTION
 1cb5486fab9723a2176d867619d34efe *LICENSE
 d2a0a8905f3c7748ea853304e135edad *NAMESPACE
-b2c0ac94a4f9f47e16ad54df605174c9 *R/nodal.R
-d0a7782bae1663e6bbccc01e7a37a2d5 *R/tidefit.R
-7e7b59bab55997ac0f3547f2897fef2e *build/vignette.rds
+f128770dd4aa157c1991ac41703c959e *R/nodal.R
+c6cd765c088d7bb51068219d96885ea3 *R/tidefit.R
+8126c2c673443d96ddb6ca278da4a82e *build/vignette.rds
 9505fa29eff8a477546db7ef67d1268b *data/Broome.rda
 1034d513aeec8987e9fd43e526488778 *data/CapeFerguson.rda
 990403c3de659a343f3fe9cd4eebbef0 *data/Darwin.rda
@@ -23,10 +23,10 @@ dc969902b290928c08917baf692d6125 *data/spdlunar.rda
 9286d5cc6f0c7cc94d684c3275cb7723 *data/spdsolar.rda
 6691e171f31647847aa40434b845441b *data/task.rda
 42c26b55faf8c2784c9cdb19d61db9cc *inst/CITATION
-e71f774cdd71b570c09ec3662ddb00da *inst/doc/Constituent_List.pdf
+772eca95a5a34e78c21b38e402196e34 *inst/doc/Constituent_List.pdf
 0708a98dae01b4e0e54eaa509e212ff7 *inst/doc/austides.R
 ac0e4dbb472d2709e8551acb18594d40 *inst/doc/austides.Rnw
-2aeca2e9e24c4324a6f94e79f3a12c5c *inst/doc/austides.pdf
+82594086f3d7f28dacf39b14c6f6b63b *inst/doc/austides.pdf
 5fbfda767a11f3c24897113b7b9dc3d8 *man/Broome.Rd
 bcbfda1adb78f3dbe91c42a94a819d1f *man/CapeFerguson.Rd
 241b412cdcbcdc547c03a198e0ab98d6 *man/Darwin.Rd
@@ -36,7 +36,7 @@ e5db1068710cf717b05eccc80021a5d4 *man/Hillarys.Rd
 174436fc17fc706518dfc97b14b2e4e4 *man/Portland.Rd
 0faaf46bd35d0c613cc78ad468e6ed2e *man/Thevenard.Rd
 62677c7eb0d79eaca9e29020f65ae17e *man/coef.tide.Rd
-551b7db9b57ce2015d7bd8b3eed2a21a *man/ftide.Rd
+36c8dd4329432161c2302819ec1e6c18 *man/ftide.Rd
 e26cb8d3400defd3e3ef38e44e1e64ab *man/harmonics.Rd
 b31aac50c9935c8179809a6efd1c6344 *man/hc114.Rd
 6bfcf9f4af8a7c10bd07fb07928dd244 *man/lambdas.Rd

@@ -1,7 +1,3 @@
-### DEFINE GLOBAL VARIABLES ###
-
-utils::globalVariables(c("harmonics", "hc60"))
-
 ### LAMBDA CREATION FUNCTION ###
 
 lambdas <- function(dvec, astlon = c("task","cartwright"), ...) 
@@ -37,6 +33,8 @@ lambdas <- function(dvec, astlon = c("task","cartwright"), ...)
 nodal_adj <- function(lambp, lambN, lambph, 
   indegree = TRUE, outdegree = TRUE)
 {
+  harmonics <- TideHarmonics::harmonics
+  
   if(missing(lambp) || !is.numeric(lambp)) 
     stop("'lambp' must be a numeric vector")
   if(missing(lambN) || !is.numeric(lambN)) 

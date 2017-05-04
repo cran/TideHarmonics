@@ -7,7 +7,7 @@
   can be used. 
 }
 \usage{
-ftide(x, dto, hcn = hc60, astlon = c("task","cartwright"),
+ftide(x, dto, hcn = TideHarmonics::hc60, astlon = c("task","cartwright"),
    nodal = TRUE, smsl = FALSE, span = 0.75, degree = 1, \dots)
 }
 \arguments{

@@ -1,6 +1,7 @@
-ftide <- function(x, dto, hcn = hc60, astlon = c("task","cartwright"),
+ftide <- function(x, dto, hcn = TideHarmonics::hc60, astlon = c("task","cartwright"),
       nodal = TRUE, smsl = FALSE, span = 0.75, degree = 1, ...)
 {
+  harmonics <- TideHarmonics::harmonics
   astlon <- match.arg(astlon)
   if(missing(x) || !is.numeric(x)) 
     stop("'x' must be a numeric vector or ts object")
@@ -207,6 +208,7 @@ ftide <- function(x, dto, hcn = hc60, astlon = c("task","cartwright"),
 
 plagtz <- function(plag, tzd, indegree = TRUE, outdegree = TRUE) 
 {
+  harmonics <- TideHarmonics::harmonics
   hcn <- names(plag)
   namei <- match(hcn, harmonics$name)
   if(any(is.na(namei))) 
@@ -269,6 +271,7 @@ print.tide <- function(x, digits = max(3L, getOption("digits") - 3L), ...)
   
 predict.tide <- function(object, from, to, by = NULL, split = FALSE, which = NULL, msl = !split, ...)
 {
+  harmonics <- TideHarmonics::harmonics
   hc <- coef(object, hc = TRUE)[,1:2]
   astlon <- object$astlon
   nodal <- object$nodal
